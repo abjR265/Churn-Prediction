@@ -2,7 +2,6 @@
 
 ## Overview
 
-**Abstract**:  
 Customer churn prediction is a crucial challenge for the banking sector as retaining high-value customers directly impacts profitability and operational efficiency. This project develops a robust machine learning-based solution to predict customer churn using a dataset of 10,000 bank customers. The solution incorporates data preprocessing techniques, including feature encoding, normalization, and class balancing using SMOTE, along with exploratory data analysis (EDA) for understanding customer behavior. Four machine learning models—Decision Tree, Random Forest, Gradient Boosting, and a Stacking Ensemble—were employed. The stacking ensemble combines the predictions of Decision Tree, Random Forest, and Gradient Boosting models as base learners, using Logistic Regression as the meta-classifier. This approach achieved the highest accuracy of 90% and an AUC-ROC score of 0.95. The project highlights the importance of ensemble methods and advanced preprocessing techniques in improving prediction accuracy and demonstrates deployment readiness through integration with Google Cloud Platform for real-time predictions.
 
 ## Objective
